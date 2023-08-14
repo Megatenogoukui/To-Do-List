@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #E4E9FD !important;
+}
+/* NAVBAR */
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a{
+    color: #fff !important;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 0.5s ;
+}
+.navbar-brand{
+    color: #fff !important;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+/* CARD */
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    margin-top: 10vh;
+}
+.head{
+    width: 27vw;
+    height: 8vh;
+    background-color: #A683E3;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    letter-spacing: 2px;
+}
+.head h1{
+    font-size: 26px;
+    color: #fff;
+}
+
+.form{
+    margin: 7vh 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color:white;
+    border-radius: 10px ;
+    
+}
+.list{
+    min-height: 70px;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    padding: 20px 30px 0 30px;
+    overflow: hidden ;
+    
+}
+.completed {
+    position: absolute;
+    text-decoration: line-through;
+    vertical-align: middle;
+}
+.listItems{
+    min-height: 70px;
+    border-bottom: 1px solid #f1f1f1;
+    display: flex;
+    align-items: center;
+    width: 600%;
+    position: relative;
+}
+.line {
+    
+text-decoration: line-through;
+text-decoration-color: #A683E3;
+text-decoration-thickness: 2px;
+
+}
+.listItems li{
+    list-style: none;
+    color: #111 ;
+}
+.listItems li span{
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #00204a;
+}
+.actualInput{
+    min-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.posting{
+    text-align: center;
+    height: 60px;
+    top: 10px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 200;
+    width: 313px;
+}
+.but{
+    min-height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: #a683e3;
+    color: #fff;
+    font-size: 30px;
+    border-width: 0;
+}
